@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignments</title>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300i,400,700&amp;subset=greek" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script type="text/javascript" src="assets/js/main.js"></script>
+ 
+  <style>
+
+     /*   table tbody td:nth-child(2){
+      max-width: 100px;  
+       overflow-x:scroll;
+      
+    } */
+    p{
+       max-height: 40px;  
+       overflow-y:scroll;
+       text-align: center;
+    }
+  
+  </style>
+
+
+</head>
+
+<body class="assignments">
+  <header class="center">
+    <a href="menou.html"><img src="assets/img/assignment.jpg" alt="courses"></a>
+    <h1>Assignments</h1>
+
+ 
+
+  </header>
+
+  <!-- dhmiourgia pinaka -->
+  <main class="center">
+
+
+    <table>
+      <!-- dhmiourgia sthlwn -->
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Description</th>
+          <th>SubDateTime  </th>
+          <th>Options</th>
+        </tr>
+      </thead>
+      <!-- dhmiourgia grammwn -->
+      <tbody>
+        <tr>
+          <td>Java</td>
+          <td width = "300px";> <p> The Java syntax is similar to C++, but is strictly an object-oriented programming language. For example, most Java programs contain classes, which are used to define objects, and methods, which are assigned to individual classes. </p></td>
+          <td>2019-03-20</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button> </td>
+        </tr>
+
+        <tr>
+          <td>DATABASE</td>
+           <td width = "300px";> <p> A database is an organized collection of data, generally 
+            stored and accessed electronically from a computer system. Where databases are more complex they are often 
+            developed using formal design and modeling techniques. </p> </td> 
+          <td>2019-04-20</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button></td>
+        </tr>
+
+        <tr>
+          <td>HTML</td>
+          <td width = "300px";><p> HTML is short for Hypertext Markup Language. HTML is used to create 
+            electronic documents (called pages) that are displayed on the World Wide Web. Each page contains a series of connections 
+            to other pages called hyperlinks </p></td>
+          <td>2019-05-18</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button></td>
+        </tr>
+
+        <tr>
+          <td>SPRING</td>
+          <td width = "300px";> <p >The Spring Framework is an application framework and inversion of control container
+            for the Java platform. The frameworks core features can be used by any Java application, but there are extensions for building web applications
+            on top of the Java EE (Enterprise Edition) platform. </p></td>
+          <td>2019-07-15</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button" onclick="myFunction()"><i class="fas fa-times" ></i></button></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <!--edit forma-->
+
+    <div class="form-popup" id="myForm">
+      <form action="Assignments.html" class="form-container">
+        <h1>Edit Data</h1>
+
+        <input type="text" placeholder="Title" name="title" >
+        <input type="text" placeholder="Description" name="description" >
+        <br>
+        <label for="startDate "><b>Sub Date Time </b></label>
+        <input type="date" placeholder="SubDateTime " name="subDateTime" >
+        <br>
+        <br>    
+        <a href="Assignments.html"><button type="submit" class="btn">Save</button> </a>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+
+
+      <footer class="page-footer">
+        <a href="formAssignment.html"><button class="button"> <i class="fas fa-plus"></i> </button></a>
+
+      </footer>
+
+
+
+
+
+  </main>
+
+
+
+
+</body>
+
+<script>
+  function myFunction() {
+    alert("Delete");
+  }
+  </script>
+
+</html>

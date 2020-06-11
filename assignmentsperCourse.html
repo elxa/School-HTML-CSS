@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment Per Course</title>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300i,400,700&amp;subset=greek" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+  <script type="text/javascript" src="assets/js/main.js"></script>
+ 
+
+
+</head>
+
+<body class="assignmentPerCourse">
+  <header class="center">
+    <a href="menou.html"><img src="assets/img/assignmentPerCourse.jpg" alt="courses"></a>
+    <h1>Assignments Per Course</h1>
+
+  </header>
+
+  <!-- dhmiourgia pinaka -->
+  <main class="center">
+
+
+    <table>
+      <!-- dhmiourgia sthlwn -->
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>SubDateTime  </th>
+          <th>Course Id</th>
+          <th>Options</th>
+        </tr>
+      </thead>
+      <!-- dhmiourgia grammwn -->
+      <tbody>
+        <tr>
+          <td>Java</td>
+          <td>2019-03-20</td>
+          <td>1</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button> </td>
+        </tr>
+
+        <tr>
+          <td>Database</td>
+          <td>2019-04-20</td>
+          <td>2</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button></td>
+        </tr>
+
+        <tr>
+          <td>Html</td>
+          <td>2019-05-18</td>
+          <td>3</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button></td>
+        </tr>
+
+        <tr>
+          <td>Spring</td>
+          <td>2019-07-15</td>
+          <td>3</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button" onclick="myFunction()"><i class="fas fa-times" ></i></button></td>
+        </tr>
+      </tbody>
+    </table>
+
+        <!--edit forma-->
+
+        <div class="form-popup" id="myForm">
+          <form action="assignmentsperCourse.html" class="form-container">
+            <h1>Edit Data</h1>
+    
+            <label for="title "><b>Title</b></label>
+            <br>
+            <select name="title" class="form-container">
+              <option value="" disabled selected>Title</option>
+              <option value="java">Java</option>
+              <option value="database">Database</option>
+              <option value="CB9">Html</option>
+              <option value="CB9">Spring</option>
+            </select>
+            <br>
+            <label for="subDateTime "><b>Sub Date Time </b></label>
+            <input type="date" placeholder="SubDateTime " name="subDateTime" >            
+            <br>
+            <br> 
+            <label for="CourseId "><b>Course Id</b></label>
+            <select name="Course Id" class="form-container">
+              <option value="" disabled selected>Course Id</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+
+            <br>
+            <br> 
+            <a href="assignmentsperCourse.html"><button type="submit" class="btn">Save</button> </a>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+
+
+      <footer class="page-footer">
+        <a href="formAssignmentCourse.html"><button class="button"> <i class="fas fa-plus"></i> </button></a>
+
+      </footer>
+  </main>
+
+</body>
+
+</html>

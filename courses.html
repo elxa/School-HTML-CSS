@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Courses</title>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300i,400,700&amp;subset=greek" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script type="text/javascript" src="assets/js/main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+
+<body class="courses">
+  <header class="center">
+    <a href="menou.html"><img src="assets/img/courses.jpg" alt="courses"> </a>
+    <h1>Courses</h1>
+
+  </header>
+
+  <!-- dhmiourgia pinaka -->
+  <main class="center">
+
+
+    <table>
+      <!-- dhmiourgia sthlwn -->
+      <thead>
+        <tr>
+          <th>Course Id</th>
+          <th>Title</th>
+          <th>Stream</th>
+          <th>Type </th>
+          <th>Start Date </th>
+          <th>End Date</th>
+          <th>Options</th>
+        </tr>
+      </thead>
+      <!-- dhmiourgia grammwn -->
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>CB8</td>
+          <td>Java</td>
+          <td>Full Time</td>
+          <td>2019-10-20</td>
+          <td>2020-05-15</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button> </td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>CB8</td>
+          <td>C#</td>
+          <td>Full Time</td>
+          <td>2019-10-20</td>
+          <td>2020-05-15</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button></td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>CB8</td>
+          <td>Java</td>
+          <td>Part Time</td>
+          <td>2019-10-15</td>
+          <td>2020-02-10</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button></td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>CB9</td>
+          <td>Java</td>
+          <td>Part Time</td>
+          <td>2019-11-15</td>
+          <td>2020-03-15</td>
+          <td> <button class="button" onclick="openForm()"><i class="fas fa-edit"></i></button> <button class="button" onclick="myFunction()"><i class="fas fa-times" ></i></button></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <!--dhmiourgia pop up gia otan patame to koumpi edit-->
+
+    <div class="form-popup" id="myForm">
+      <form action="courses.html" class="form-container">
+        <h1>Edit Data</h1>
+
+        <input type="number" placeholder="Course Id" name="courseId" min="0"  >
+        <input type="text" placeholder="Title" name="title" >
+        <input type="text" placeholder="Stream" name="stream" >
+        <input type="text" placeholder="Type" name="type" >
+        <br>
+        <label for="startDate "><b>Start Date </b></label>
+        <input type="date" placeholder="Start Date " name="startDate" >
+        <br>
+
+        <label for="endDate "><b>End Date</b></label>
+        <input type="date" placeholder="End Date" name="endDate" >
+        <br>
+        <br>    
+        <a href="courses.html"><button type="submit" class="btn">Save</button> </a>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+
+
+
+      <footer class="page-footer">
+        <a href="formCourse.html"><button class="button"> <i class="fas fa-plus"></i> </button></a>
+
+      </footer>
+
+
+
+
+
+  </main>
+
+
+
+
+</body>
+
+
+
+</html>

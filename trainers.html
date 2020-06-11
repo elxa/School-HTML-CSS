@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Trainers</title>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300i,400,700&amp;subset=greek" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script type="text/javascript" src="assets/js/main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+
+<body class="trainers">
+  <header class="center">
+    <a href="menou.html"><img src="assets/img/trainers.jpg" alt="courses"></a>
+    <h1>Trainers</h1>
+
+  </header>
+
+  <!-- dhmiourgia pinaka -->
+  <main class="center">
+
+
+    <table>
+      <!-- dhmiourgia sthlwn -->
+      <thead>
+        <tr>
+          <th>First Name </th>
+          <th>Last Name </th>
+          <th>subject  </th>
+          <th>Options</th>
+        </tr>
+      </thead>
+      <!-- dhmiourgia grammwn -->
+      <tbody>
+        <tr>
+          <td>Blashs</td>
+          <td>Lukodhmos</td>
+          <td>Java</td>
+          <td> <button class="button" onclick="openForm()" ><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button> </td>
+        </tr>
+
+        <tr>
+          <td>Konstantinos</td>
+          <td>Simseridhs</td>
+          <td>CSS</td>
+          <td> <button class="button" onclick="openForm()" ><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button></td>
+        </tr>
+
+        <tr>
+          <td>Anna</td>
+          <td>Rodith</td>
+          <td>Javascript</td>
+          <td> <button class="button" onclick="openForm()" ><i class="fas fa-edit"></i></button> <button class="button"  onclick="myFunction()"><i
+                class="fas fa-times"></i></button></td>
+        </tr>
+
+        <tr>
+          <td>Blashs</td>
+          <td>Reishs</td>
+          <td>Spring</td>
+          <td> <button class="button" onclick="openForm()" ><i class="fas fa-edit"></i></button> <button class="button" onclick="myFunction()"><i class="fas fa-times" ></i></button></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+        <!--dhmiourgia pop up gia otan patame to koumpi edit-->
+
+        <div class="form-popup" id="myForm">
+          <form action="trainers.html" class="form-container">
+            <h1>Edit Data</h1>
+    
+            <input type="text" placeholder="First Name" name="firstName" >
+            <input type="text" placeholder="Last Name" name="lastName" >
+            <input type="text" placeholder="subject" name="subject" >
+            <br>
+            <br>    
+            <a href="trainers.html"><button type="submit" class="btn">Save</button> </a>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+
+
+      <footer class="page-footer">
+        <a href="formTrainer.html"><button class="button"> <i class="fas fa-plus"></i> </button></a>
+
+      </footer>
+
+  </main>
+
+</body>
+
+</html>

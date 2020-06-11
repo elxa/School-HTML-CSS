@@ -1,0 +1,425 @@
+.menou{
+  overflow:hidden; /*afairesh ths scroll bar apo thn istoselida */
+}
+
+/* courses */
+
+.center{
+  text-align: center;
+
+}
+
+h1 {
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 50px;
+}
+.courses h1 {
+  color: #1c0f31;
+}
+
+.students h1 {
+  color: #217c35;
+}
+
+.trainers h1 {
+  color: #9d48e2;
+}
+.assignments h1 {
+  color: #d42b14;
+}
+
+.tarinersCourses h1{
+  color: #185e12;
+}
+
+.studentsCourses h1{
+  color: #306385;
+}
+
+.assignmentPerCourse h1{
+  color: #f5a346;
+}
+
+.studentsCoursesAssignments h1{
+  color: #9d48e2;
+}
+
+/* bazoume skies k xrwmata ston pinaka */
+ table{
+   width: 65%; 
+  text-align: center;
+  	box-shadow: 0 7px 16px -5px rgba(0,0,0,.9);
+margin: 60px 248px;
+}
+
+table th,
+table td {
+	padding: 10px 0;
+}
+
+.courses table thead tr,
+.courses table tbody tr:nth-child(even) {
+	color: white;
+	background-color: #f46f30;
+}
+
+.students table thead tr,
+.students table tbody tr:nth-child(even) {
+	color: white;
+	background-color: #30f461;
+}
+
+.trainers table thead tr,
+.trainers table tbody tr:nth-child(even) {
+	color: white;
+  background-color: #f430e4;
+}
+
+
+
+
+.assignments table thead tr,
+.assignments table tbody tr:nth-child(even) {
+	color: white;
+  background-color: #eeca2a;
+}
+
+.tarinersCourses table thead tr,
+.tarinersCourses table tbody tr:nth-child(even) {
+	color: white;
+  background-color: #ac973b;
+}
+
+.studentsCourses table thead tr,
+.studentsCourses table tbody tr:nth-child(even) {
+	color: white;
+  background-color: #0357b8;
+}
+
+.assignmentPerCourse table thead tr,
+.assignmentPerCourse table tbody tr:nth-child(even) {
+	color: white;
+  background-color: #f7f45d;
+}
+
+.studentsCoursesAssignments table thead tr,
+.studentsCoursesAssignments table tbody tr:nth-child(even) {
+	color: white;
+  background-color: #e3a7ff;
+}
+
+.button {
+  border: none;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.courses .button {
+  background-color: rgb(247, 167, 64); 
+  color: white;
+
+}
+.students .button {
+  background-color: rgb(85, 206, 236); 
+  color: white;
+}
+
+.trainers .button {
+  background-color: rgb(233, 143, 206); 
+  color: white;
+}
+
+.assignments .button {
+  background-color: rgb(89, 188, 245); 
+  color: white;
+}
+
+.tarinersCourses .button {
+  background-color: rgb(216, 219, 16); 
+  color: white;
+}
+
+.studentsCourses .button {
+  background-color: rgb(189, 71, 173); 
+  color: white;
+}
+
+.assignmentPerCourse .button {
+  background-color: rgb(243, 111, 3); 
+  color: white;
+}
+
+.studentsCoursesAssignments .button {
+  background-color: rgb(188, 236, 76); 
+  color: white;
+}
+
+.page-footer .button {
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.courses .page-footer .button {
+  background-color: rgb(9, 245, 87); 
+  color: white;
+}
+
+.students .page-footer .button {
+  background-color: rgb(122, 250, 62); 
+  color: white;
+}
+
+.assignments .page-footer .button {
+  background-color: rgb(22, 86, 105); 
+  color: white;
+}
+
+.tarinersCourses .page-footer .button {
+  background-color: rgb(7, 68, 12); 
+  color: white;
+}
+.studentsCourses .page-footer .button {
+  background-color: rgb(99, 31, 131); 
+  color: white;
+}
+
+.assignmentPerCourse .page-footer .button {
+  background-color: rgb(197, 0, 0); 
+  color: white;
+}
+
+.studentsCoursesAssignments .page-footer .button {
+  background-color: rgb(139, 228, 23); 
+  color: white;
+}
+
+
+/*insert courses*/
+.insert-courses-header {
+  text-align: center;
+  color: #b89de4;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 50px;
+  margin: 5% 19%;
+  padding: 9px 3px;
+}
+
+.insert-courses{
+  width: 350px;
+  margin: auto;
+  background: #67cef3;
+  margin-top: 50px;
+  padding: 5px;
+}
+.insert-courses form{
+  padding: 10px;
+  font-family: arial;
+  border: 1px dotted white;
+}
+.insert-courses h2{
+  text-align: center;
+  background: rgb(187, 238, 121);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.insert-courses input{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+input[type=text]{
+  width: 90%;
+}
+input[type=submit]{
+  width: 95%;
+  background: rgb(181, 238, 107);
+  cursor:pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+input[type=submit]:hover{
+  background: yellow;
+}
+
+select{
+  padding: 10px;
+  width: 32%;
+  border-radius: 5px;
+}
+
+
+/**/
+.trainers{
+  background-color: blanchedalmond;
+}
+.trainers img{
+  width: 850px;
+  height: 390px;
+  box-shadow: 0 22px 33px -5px rgba(0,0,0,.9);
+}
+
+.assignments img{
+  width: 90%;
+  height: 390px;
+}
+
+.assignments{
+  background-color: rgb(255, 237, 189);
+}
+
+.tarinersCourses{
+  background-color: rgb(217, 231, 156);
+}
+
+.studentsCourses img {
+  width: 54%;
+  height: 455px;
+}
+.studentsCourses{
+  background-color: rgb(156, 231, 219);
+}
+
+
+
+.assignmentPerCourse img{
+  width: 40%;
+  height: 400px;
+  box-shadow: 0 22px 33px -5px rgba(0,0,0,.9);
+}
+
+
+.studentsCoursesAssignments img{
+  width: 64%;
+  height: 419px;
+  box-shadow: 0 22px 33px -5px rgba(0,0,0,.9);
+}
+
+.nav ul{
+  list-style: none;
+  background: #9d48e2;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li{
+  display: inline-block;
+} 
+.nav a{
+  text-decoration: none;
+  color: #30f461;
+  width: 100px;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+  transition: 1.4s;
+}
+.nav a:hover {
+  background: #f430e4;
+  transition: 0.6s;
+}
+
+ .banner-text {
+	position: absolute;
+	top: 50%;
+  left: 33%;
+	transform: translateY(-50%);
+	max-width: 50%;
+	padding: 25px;
+  color: white;
+  font-size: 100px;
+  text-shadow: 12px 2px 6px #000000;
+}
+
+
+
+/*gia to pop up edit*/
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}    
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgb(157, 241, 202);
+} 
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=date] ,.form-container input[type=number] {
+  width: 86%;
+  padding: 15px;
+  margin: 5px 0 ;
+  border: none;
+  background: #f1f1f1;
+} 
+
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=date]:focus ,.form-container input[type=number]:focus  {
+  background-color: #ddd;
+  outline: none;
+} 
+
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: rgb(76, 175, 106);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgb(247, 57, 57);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+} 
+
+/**********************************gia tis klaseis pou einai diples*********************************************************************************
+/* The popup form - hidden by default */
+
+/* Full-width input fields */
+.form-container select {
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 ;
+  background: #f1f1f1;
+  border: none;
+
+
+} 
+
+
+
+
+
+
+
